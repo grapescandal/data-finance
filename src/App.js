@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Analytics from './components/Analytics';
 import Newsletter from './components/Newsletter';
+import Card from './components/Card';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Hero/>
       <Analytics/>
       <Newsletter/>
+      <Card/>
+      <Footer/>
     </div>
   );
 }
