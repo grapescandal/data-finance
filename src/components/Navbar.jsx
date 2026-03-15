@@ -5,7 +5,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
-    setNav(!nav);
+    setNav(nav);
   };
 
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
       <div
         className={
-          !nav
+          nav
             ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
             : "fixed left-[-100%]"
         }
